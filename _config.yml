@@ -1,8 +1,8 @@
 # Site settings
-title: Blacksonic Blog
+title: Blacksonic
 email: soos.gabor86@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  Personal Tech Blog
 baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 twitter_username: blacksonic86
