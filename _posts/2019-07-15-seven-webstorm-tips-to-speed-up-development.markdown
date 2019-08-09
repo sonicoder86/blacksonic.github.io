@@ -30,15 +30,17 @@ it('should $TESTCASE$', function() {
 
 The placeholders are started and ended with `$` signs. The placeholder `$END$` has a special meaning: this is the place of the cursor after the insertion.
 
-### Search Actions
+### Search Everywhere
 
-Lorem ipsum
-
-### Refactoring
-
-Lorem ipsum
+Searching for text in project files is a common feature in most IDEs, but searching for other things like actions in the menu bar or declarations are not so common. The best thing you can search for files, menu actions and declarations with a single command: just double press the `Shift` button.
+<img src="/img/posts/search-everywhere.gif" width="675">
 
 ### Prettier Plugin
+
+Prettier is an opinionated code formatter supporting many languages like Javascript, Typescript, CSS, HTML, etc. By using it you can save time and energy by automating code formatting.
+Prettier can be added to Webstorm through its plugin. To make code formatting automatic, you have to add a file watcher also. This file watcher will listen to save events, and when it occurs, runs Prettier code formatting on the saved file.
+
+### Refactoring
 
 Lorem ipsum
 
