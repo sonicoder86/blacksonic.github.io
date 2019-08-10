@@ -30,15 +30,21 @@ it('should $TESTCASE$', function() {
 
 The placeholders are started and ended with `$` signs. The placeholder `$END$` has a special meaning: this is the place of the cursor after the insertion.
 
+![Live Template](https://thepracticaldev.s3.amazonaws.com/i/27yhd9sw3gdcvpim3yy8.gif)
+
 ### Search Everywhere
 
 Searching for text in project files is a common feature in most IDEs, but searching for other things like actions in the menu bar or declarations are not so common. The best thing you can search for files, menu actions and declarations with a single command: just double press the `Shift` button and [start searching everywhere][Search Everywhere].
+
 ![Search Everywhere](https://thepracticaldev.s3.amazonaws.com/i/3k8ow6bpl981zml7tz5c.gif)
 
 ### Prettier Plugin
 
 [Prettier] is an opinionated code formatter supporting many languages like Javascript, Typescript, CSS, HTML, etc. By using it you can save time and energy by automating code formatting.
-Prettier can be added to Webstorm through its plugin. To make code formatting automatic, you have to add a file watcher also. This file watcher will listen to save events, and when it occurs, runs Prettier code formatting on the saved file.
+Prettier can be added to Webstorm [through its plugin][Prettier Webstorm Plugin]. To make code formatting automatic, you have to add a file watcher also. [This file watcher][Prettier File Watcher] will listen to save events, and when it occurs, runs Prettier code formatting on the saved file.
+If you don't like automatic code updates, it can be done manually with a keyboard shortcut.
+
+![](https://thepracticaldev.s3.amazonaws.com/i/nr348lwjbosn6nrwdy43.png)
 
 ### Refactoring
 
@@ -63,3 +69,5 @@ Although it has a subscription model to use, you can also opt-in for the Early A
 [Test Driven Development]: https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/
 [Search Everywhere]: https://www.jetbrains.com/help/webstorm/searching-everywhere.html
 [Prettier]: https://prettier.io/
+[Prettier Webstorm Plugin]: https://plugins.jetbrains.com/plugin/10456-prettier
+[Prettier File Watcher]: https://prettier.io/docs/en/webstorm.html#running-prettier-on-save-using-file-watcher
