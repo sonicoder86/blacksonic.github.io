@@ -30,7 +30,7 @@ it('should $TESTCASE$', function() {
 
 The placeholders are started and ended with `$` signs. The placeholder `$END$` has a special meaning: this is the place of the cursor after the insertion.
 
-![Live Template](https://thepracticaldev.s3.amazonaws.com/i/27yhd9sw3gdcvpim3yy8.gif)
+![Live Templates](https://thepracticaldev.s3.amazonaws.com/i/27yhd9sw3gdcvpim3yy8.gif)
 
 ### Search Everywhere
 
@@ -44,27 +44,25 @@ Searching for text in project files is a common feature in most IDEs, but search
 You can add Prettier to Webstorm [through its plugin][Prettier Webstorm Plugin]. To make code formatting automatic, you have to add a file watcher also. [This file watcher][Prettier File Watcher] listens to save events, and when it occurs, runs Prettier code formatting on the saved file.
 If you don't like automatic code updates, it can be done manually with a keyboard shortcut.
 
-![](https://thepracticaldev.s3.amazonaws.com/i/nr348lwjbosn6nrwdy43.png)
+![Prettier](https://thepracticaldev.s3.amazonaws.com/i/nr348lwjbosn6nrwdy43.png)
 
 ### Refactoring
 
 When the code gets messy, or we find duplicate parts, we tend to do refactoring. If the code what we refactor is used in many places, it can be an error-prone task. [Webstorm helps us][Refactoring] in this situation with its built-in refactoring capabilities. If the target is a variable, we can rename, extract, inline, or move it elsewhere with a single mouse click. The same goes for methods.
 
-![](https://thepracticaldev.s3.amazonaws.com/i/9tox73sly6zji7oiia3x.png)
+![Refactoring](https://thepracticaldev.s3.amazonaws.com/i/9tox73sly6zji7oiia3x.png)
 
-### Default Keymap
+### Key Promoter
 
-Lorem ipsum
+Webstorm has more than 100 shortcuts by default for nearly all the actions and code modifications. Do you know all of them? I don't know either. However, the key promoter plugin informs you if you don't use them. When you do an interaction that you can do with a keyboard shortcut, the plugin tells it in the bottom right corner.
 
-### Keypromoter Plugin
-
-Lorem ipsum
+![Key Promoter](https://thepracticaldev.s3.amazonaws.com/i/pjg6o4bljvrj07dyvs0v.png)
 
 ### Keyboard Shortcuts
 
-Lorem ipsum
+The promoter is a great way to learn the shortcuts for the things you use, but what about those you don't know? It pays off to read through the list of the shortcuts at least once. I have created a list about those that I find the most useful.
 
-Although it has a subscription model to use, you can also opt-in for the Early Access Program and use it for free.
+### 
 
 [Webstorm]: https://www.jetbrains.com/webstorm/
 [Live Templates]: https://www.jetbrains.com/help/webstorm/using-live-templates.html
