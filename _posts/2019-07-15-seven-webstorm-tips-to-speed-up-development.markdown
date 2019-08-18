@@ -64,6 +64,12 @@ A particular case is when the places we want to edit are in the same column. At 
 
 A third multiple-cursor use-case is when we select all the occurrences of the selected text (^ + ⌘ + G shortcut or from the menu Edit > Find > Select All Accourences) and the typing/deletion happens at all the places.
 
+### Code Navigation
+
+If you use a library and you want to know how that class/function behaves, you have to search and open that file. [Webstorm makes this navigation][Code Navigation] a lot easier. Holding down the Command button (⌘) turns the cursor into definition revealing mode. If you hover an imported class/function, it shows its interface. Clicking the hovered element results in navigating to the definition. You can do the navigation without using the cursor by pressing Command + B. Now you know the definition, but want to go back to the previous place. Webstorm can navigate back to the last edit location (⌘ + ⌥ + ←), making code navigation extremely fast.
+
+![Code Navigation](https://thepracticaldev.s3.amazonaws.com/i/a0hf2ne22qii9gy8564u.png)
+
 ### Key Promoter
 
 Webstorm has more than 100 shortcuts by default for nearly all the actions and code modifications. Do you know all of them? I don't know either. However, [the key promoter plugin][Key Promoter] informs you if you don't use them. When you do an interaction that you can do with a keyboard shortcut, the plugin tells it in the bottom right corner.
@@ -107,3 +113,4 @@ I have listed the default shortcuts on Mac. You can find the Windows and Linux e
 [Refactoring]: https://www.jetbrains.com/help/webstorm/refactoring-source-code.html
 [Key Promoter]: https://plugins.jetbrains.com/plugin/9792-key-promoter-x
 [Shortcuts Reference]: https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html
+[Code Navigation]: https://www.jetbrains.com/help/webstorm/navigating-through-the-source-code.html
