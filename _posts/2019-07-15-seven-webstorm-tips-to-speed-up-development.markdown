@@ -52,9 +52,21 @@ When the code gets messy, or we find duplicate parts, we tend to do refactoring.
 
 ![Refactoring](https://thepracticaldev.s3.amazonaws.com/i/9tox73sly6zji7oiia3x.png)
 
+### Multi-cursor editing
+
+Most of the time, we used to edit the code in one place where the cursor is waiting. There are occasions when we have to do the same editing in different places. The straightforward solution is to edit it in one place, copy it, and paste it to all the locations. The quicker way is to place the cursor to multiple locations by pressing the Alt key (⌥) and clicking the locations. The cursor appears at all the locations where we clicked, and typing happens where the cursors are.
+
+![Multiple Cursor](https://thepracticaldev.s3.amazonaws.com/i/buxx9i0lgo2aqq4cei8q.gif)
+
+A particular case is when the places we want to edit are in the same column. At this point, we can switch to column selection mode: instead of lines, we can select columns and edit the code inside these columns.
+
+![Column Selection Mode](https://thepracticaldev.s3.amazonaws.com/i/a2dxbcyct51r8emjzbws.gif)
+
+A third multiple-cursor use-case is when we select all the occurrences of the selected text (^ + ⌘ + G shortcut or from the menu Edit > Find > Select All Accourences) and the typing/deletion happens at all the places.
+
 ### Key Promoter
 
-Webstorm has more than 100 shortcuts by default for nearly all the actions and code modifications. Do you know all of them? I don't know either. However, the key promoter plugin informs you if you don't use them. When you do an interaction that you can do with a keyboard shortcut, the plugin tells it in the bottom right corner.
+Webstorm has more than 100 shortcuts by default for nearly all the actions and code modifications. Do you know all of them? I don't know either. However, [the key promoter plugin][Key Promoter] informs you if you don't use them. When you do an interaction that you can do with a keyboard shortcut, the plugin tells it in the bottom right corner.
 
 ![Key Promoter](https://thepracticaldev.s3.amazonaws.com/i/pjg6o4bljvrj07dyvs0v.png)
 
@@ -62,7 +74,28 @@ Webstorm has more than 100 shortcuts by default for nearly all the actions and c
 
 The promoter is a great way to learn the shortcuts for the things you use, but what about those you don't know? It pays off to read through the list of the shortcuts at least once. I have created a list about those that I find the most useful.
 
-### 
+- Delete line (⌘ + ⌫)
+- Move line up/down (⇧ + ⌥ + ↑ or ↓)
+- Show preferences (⌘ + ,)
+- Duplicate line or selection (⌘ + D)
+- Search everywhere (double ⇧)
+- Expand or shrink selection (⌥ + ↑ or ↓)
+- Column selection mode (⌘ + ⇧ + 8)
+- Find in path (⌘ + ⇧ + F)
+- Replace in path (⌘ + ⇧ + R)
+- Rename definition or variable (⇧ + F6)
+- Go to declaration (⌘ + B, ⌘ + Click)
+- Go to last edit location (⌘ + ⌥ + ← or →)
+- Code completion (⌘ + Space)
+- Multiple cursors (⌥ + Click)
+- Show intentions (⌥ + ⏎)
+- Trigger column selection mode (⌘ + ⇧ + 8)
+- Show intentions (⌥ + ⏎)
+- Comment/uncomment current line/selection (⌘ + /)
+- Reformat code (⌘ + ⌥ + L)
+- Select all occurrences (^ + ⌘ + G)
+
+I have listed the default shortcuts on Mac. You can find the Windows and Linux equivalents on the [reference page][Shortcuts Reference]. They have even shortcut lists where they compare different lists to one another.
 
 [Webstorm]: https://www.jetbrains.com/webstorm/
 [Live Templates]: https://www.jetbrains.com/help/webstorm/using-live-templates.html
@@ -72,3 +105,5 @@ The promoter is a great way to learn the shortcuts for the things you use, but w
 [Prettier Webstorm Plugin]: https://plugins.jetbrains.com/plugin/10456-prettier
 [Prettier File Watcher]: https://prettier.io/docs/en/webstorm.html#running-prettier-on-save-using-file-watcher
 [Refactoring]: https://www.jetbrains.com/help/webstorm/refactoring-source-code.html
+[Key Promoter]: https://plugins.jetbrains.com/plugin/9792-key-promoter-x
+[Shortcuts Reference]: https://www.jetbrains.com/help/rider/Reference_Keyboard_Shortcuts_Index.html
