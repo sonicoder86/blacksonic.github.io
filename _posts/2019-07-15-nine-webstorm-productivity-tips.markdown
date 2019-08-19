@@ -1,9 +1,11 @@
 ---
 layout: post
 title: 9 Webstorm Productivity Tips
+published: true
 date: 2019-07-28 15:09:00
 description: 9 Webstorm Productivity Tips
 tags: productivity, javascript, webdev, showdev
+cover_image: https://thepracticaldev.s3.amazonaws.com/i/7oxz9g08yw4zwnzf3txh.png
 ---
 [Webstorm] is an excellent IDE for web development. It has many useful features to make our lives easier, all of them aiming to automate the repetitive parts of coding. Looking back at my coding speed years ago seems like snail's pace. The difference is not in my typing speed, but how much I know about the tool I use. Knowing the tool means knowing the features it offers. I've collected those features that add the most value to this speedup.
 
@@ -35,13 +37,13 @@ The placeholders are started and ended with `$` signs. The placeholder `$END$` h
 
 ### Search Everywhere
 
-Searching for text in project files is a common feature in most IDEs, but searching for other things like actions in the menu bar or declarations are rare in other editors. The best thing you can search for files, menu actions,  and declarations with a single command: just double press the `Shift` button and [start searching everywhere][Search Everywhere].
+Searching for text in project files is a common feature in most IDEs, but searching for other things like actions in the menu bar or declarations are rare in other editors. The best thing is that you can search for files, menu actions, and declarations with a single command: just double press the `Shift` button and [start searching everywhere][Search Everywhere].
 
 ![Search Everywhere](https://thepracticaldev.s3.amazonaws.com/i/3k8ow6bpl981zml7tz5c.gif)
 
 ### Prettier
 
-[Prettier] is an opinionated code formatter supporting many languages like Javascript, Typescript, CSS, HTML, etc. By using it, you can save time and energy by automating code formatting.
+[Prettier] is an opinionated code formatter supporting many languages like Javascript, Typescript, CSS, HTML, etc. By using it, you can save time and energy on code formatting.
 You can add Prettier to Webstorm [through its plugin][Prettier Webstorm Plugin]. To make code formatting automatic, you have to add a file watcher also. [This file watcher][Prettier File Watcher] will listen to save events, and when it occurs, runs Prettier code formatting on the saved file.
 If you don't like automatic code updates, it can be done manually with a keyboard shortcut.
 
