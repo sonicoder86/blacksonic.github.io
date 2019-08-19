@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 7 Webstorm Tips to Speed Up Development
+title: 9 Webstorm Productivity Tips
 date: 2019-07-28 15:09:00
-description: 7 Webstorm Tips to Speed Up Development
+description: 9 Webstorm Productivity Tips
+tags: productivity, javascript, webdev, showdev
 ---
-[Webstorm] is an excellent IDE for web development. It has many useful features to make our lives easier, all of them aiming to automate the repetitive parts of coding. Looking back at my coding speed years ago seems like snail's pace. The difference is not in my typing speed, but in what features and plugins I have started to use. I've collected the things that add the most value to this speedup in this article.
+[Webstorm] is an excellent IDE for web development. It has many useful features to make our lives easier, all of them aiming to automate the repetitive parts of coding. Looking back at my coding speed years ago seems like snail's pace. The difference is not in my typing speed, but how much I know about the tool I use. Knowing the tool means knowing the features it offers. I've collected those features that add the most value to this speedup.
 
 ### Live Templates
 
@@ -21,7 +22,7 @@ describe('$TESTGROUP$', function() {
 ```
 
 Also, create one for the `it` block (abbreviation: `it`).
- 
+
 ```javascript
 it('should $TESTCASE$', function() {
   $END$
@@ -34,23 +35,23 @@ The placeholders are started and ended with `$` signs. The placeholder `$END$` h
 
 ### Search Everywhere
 
-Searching for text in project files is a common feature in most IDEs, but searching for other things like actions in the menu bar or declarations are rare in other editors. The best thing you can search for files, menu actions, and declarations with a single command: just double press the `Shift` button and [start searching everywhere][Search Everywhere].
+Searching for text in project files is a common feature in most IDEs, but searching for other things like actions in the menu bar or declarations are rare in other editors. The best thing you can search for files, menu actions,  and declarations with a single command: just double press the `Shift` button and [start searching everywhere][Search Everywhere].
 
 ![Search Everywhere](https://thepracticaldev.s3.amazonaws.com/i/3k8ow6bpl981zml7tz5c.gif)
 
-### Prettier Plugin
+### Prettier
 
 [Prettier] is an opinionated code formatter supporting many languages like Javascript, Typescript, CSS, HTML, etc. By using it, you can save time and energy by automating code formatting.
-You can add Prettier to Webstorm [through its plugin][Prettier Webstorm Plugin]. To make code formatting automatic, you have to add a file watcher also. [This file watcher][Prettier File Watcher] listens to save events, and when it occurs, runs Prettier code formatting on the saved file.
+You can add Prettier to Webstorm [through its plugin][Prettier Webstorm Plugin]. To make code formatting automatic, you have to add a file watcher also. [This file watcher][Prettier File Watcher] will listen to save events, and when it occurs, runs Prettier code formatting on the saved file.
 If you don't like automatic code updates, it can be done manually with a keyboard shortcut.
 
-![Prettier](https://thepracticaldev.s3.amazonaws.com/i/nr348lwjbosn6nrwdy43.png)
+![Prettier](https://thepracticaldev.s3.amazonaws.com/i/djkf62duzm0z7obvbzn9.jpg)
 
 ### Refactoring
 
 When the code gets messy, or we find duplicate parts, we tend to do refactoring. If the code what we refactor is used in many places, it can be an error-prone task. [Webstorm helps us][Refactoring] in this situation with its built-in refactoring capabilities. If the target is a variable, we can rename, extract, inline, or move it elsewhere with a single mouse click. The same goes for methods.
 
-![Refactoring](https://thepracticaldev.s3.amazonaws.com/i/9tox73sly6zji7oiia3x.png)
+![Refactoring](https://thepracticaldev.s3.amazonaws.com/i/591fltyi7z28vykg1pu4.png)
 
 ### Multi-cursor editing
 
@@ -62,7 +63,7 @@ A particular case is when the places we want to edit are in the same column. At 
 
 ![Column Selection Mode](https://thepracticaldev.s3.amazonaws.com/i/a2dxbcyct51r8emjzbws.gif)
 
-A third multiple-cursor use-case is when we select all the occurrences of the selected text (^ + ⌘ + G shortcut or from the menu Edit > Find > Select All Accourences) and the typing/deletion happens at all the places.
+A third multiple-cursor use-case is when we select all the occurrences of the selected text (Edit > Find > Select All Accourences) and the typing/deletion happens everywhere.
 
 ### Code Navigation
 
@@ -74,7 +75,7 @@ If you use a library and you want to know how that class/function behaves, you h
 
 Webstorm has more than 100 shortcuts by default for nearly all the actions and code modifications. Do you know all of them? I don't know either. However, [the key promoter plugin][Key Promoter] informs you if you don't use them. When you do an interaction that you can do with a keyboard shortcut, the plugin tells it in the bottom right corner.
 
-![Key Promoter](https://thepracticaldev.s3.amazonaws.com/i/pjg6o4bljvrj07dyvs0v.png)
+![Key Promoter](https://thepracticaldev.s3.amazonaws.com/i/4lrnj4uav6039j32hk66.png)
 
 ### Keyboard Shortcuts
 
@@ -102,6 +103,14 @@ The promoter is a great way to learn the shortcuts for the things you use, but w
 - Select all occurrences (^ + ⌘ + G)
 
 I have listed the default shortcuts on Mac. You can find the Windows and Linux equivalents on the [reference page][Shortcuts Reference]. They have even shortcut lists where they compare different lists to one another.
+
+### Built-in Terminal
+
+Why would you leave the IDE to use the command line if you have one inside it? Webstorm has a built-in terminal that supports multiple sessions, and you can access with a hotkey.
+
+### Summary
+
+We have gone through many different features that can speed up development and make you more productive. It is up to you whether you use them or not. The most important thing is to know about them. If you are starting to use a tool, learn about it. If you are developing with it for a while recheck its features in an orderly manner. Because you become more productive by mastering the tools you use.
 
 [Webstorm]: https://www.jetbrains.com/webstorm/
 [Live Templates]: https://www.jetbrains.com/help/webstorm/using-live-templates.html
