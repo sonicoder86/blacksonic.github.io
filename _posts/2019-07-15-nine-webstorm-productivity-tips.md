@@ -51,7 +51,7 @@ If you don't like automatic code updates, it can be done manually with a keyboar
 
 ### Refactoring
 
-When the code gets messy, or we find duplicate parts, we tend to do refactoring. If the code what we refactor is used in many places, it can be an error-prone task. [Webstorm helps us][Refactoring] in this situation with its built-in refactoring capabilities. If the target is a variable, we can rename, extract, inline, or move it elsewhere with a single mouse click. The same goes for methods.
+When the code gets messy, or we find duplicate parts, we tend to do refactoring. If the refactored code is used in many places, it can be an error-prone task. [Webstorm helps us][Refactoring] in this situation with its built-in refactoring capabilities. If the target is a variable, we can rename, extract, inline, or move it elsewhere with a single mouse click. The same goes for methods.
 
 ![Refactoring](https://thepracticaldev.s3.amazonaws.com/i/591fltyi7z28vykg1pu4.png)
 
@@ -75,7 +75,7 @@ If you use a library and you want to know how that class/function behaves, you h
 
 ### Key Promoter
 
-Webstorm has more than 100 shortcuts by default for nearly all the actions and code modifications. Do you know all of them? I don't know either. However, [the key promoter plugin][Key Promoter] informs you if you don't use them. When you do an interaction that you can do with a keyboard shortcut, the plugin tells it in the bottom right corner.
+Webstorm has more than 100 shortcuts by default for nearly all the actions and code modifications. Do you know all of them? Well, I don't. However, [the key promoter plugin][Key Promoter] informs you if you don't use them. When you do an interaction that you can do with a keyboard shortcut, the plugin tells it in the bottom right corner.
 
 ![Key Promoter](https://thepracticaldev.s3.amazonaws.com/i/4lrnj4uav6039j32hk66.png)
 
@@ -112,7 +112,7 @@ Why would you leave the IDE to use the command line if you have one inside it? W
 
 ### Summary
 
-We have gone through many different features that can speed up development and make you more productive. It is up to you whether you use them or not. The most important thing is to know about them. If you are starting to use a tool, learn about it. If you are developing with it for a while recheck its features in an orderly manner. Because you become more productive by mastering the tools you use.
+In this post, we have listed many different features that can speed up development and make you more productive. It is up to you whether you use them or not. The most important thing is to know about them. If you are starting to use a tool, learn about it. If you are developing with it for a while recheck its features in an orderly manner. Because you become more productive by mastering the tools you use.
 
 [Webstorm]: https://www.jetbrains.com/webstorm/
 [Live Templates]: https://www.jetbrains.com/help/webstorm/using-live-templates.html
