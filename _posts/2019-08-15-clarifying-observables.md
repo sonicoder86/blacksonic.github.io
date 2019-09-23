@@ -127,10 +127,11 @@ promise
   .then(value => value + 5)
   .then(value => Promise.resolve(9));
 
-observable
-  .map(value => value + 5)
-  .flatMap(value => Rx.Observable.of(9))
-  .filter(value => value > 5);
+observable.pipe(
+  map(value => value + 5),
+  flatMap(value => Rx.Observable.of(9)),
+  filter(value => value > 5)
+);
 ```
 
 Inside the then method, you can either return a new value or a new promise. It acts the same; the next then method gets the value returned previously. With Observables, we have to separate synchronous (map) and asynchronous (flatMap) transformation. Observables also have many array methods (filter, reduce, join, includes, etc.) and array methods from utility libraries (Lodash: pluck, groupBy, etc.)
